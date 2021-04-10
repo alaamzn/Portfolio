@@ -7,7 +7,7 @@
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
-	
+	scroll-behavior: smooth;
 }
 a {
 	text-decoration: none;
@@ -59,6 +59,9 @@ p {
 	transition-property: background-color, color;
 }
 
+.col-right .cta-transparent{
+	color: black;
+}
 .cta-blue {
 	display: inline-block;
 	padding: 10px 30px;
@@ -309,8 +312,8 @@ p {
 
 
 .service-item h1{
-    font-size: 2.8rem;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-family: 'Dosis', sans-serif;
     margin: 1.5rem;
     color: white;
 	font-family: Ubuntu;
@@ -327,8 +330,9 @@ p {
 }
 
 .tech-skill p{
+	font-family: 'Dosis', sans-serif;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 }
 
 
@@ -376,17 +380,27 @@ p {
 }
 #projects .project-info h1 {
 	font-size: 4rem;
-	font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+	font-weight: 800;
 }
 #projects .project-info h2 {
-	font-size: 2.5rem;
-	font-weight: 800;
+	font-size: 3.5rem;
+    font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	letter-spacing: .5rem;
 	margin-top: 10px;
+	padding: 3rem 0;
 }
 #projects .project-info p {
 	color: white;
-	font-size: 1.5rem;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.8rem;
 	font-weight: 500;
+	
+}
+
+#projects .project-info p strong{
+	padding-top: 2rem;
 }
 #projects .project-img {
 	flex-basis: 50%;
@@ -516,13 +530,17 @@ p {
 	width: 100%;
 }
 #about .col-right h2 {
-	font-size: 1.8rem;
+	font-size: 2.2rem;
 	font-weight: 500;
-	letter-spacing: .2rem;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: .5rem;
 	margin-bottom: 10px;
 }
 #about .col-right p {
 	margin-bottom: 20px;
+	font-size: 1.8rem;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: .2rem;
 }
 #about .col-right .cta {
 	color: black;
